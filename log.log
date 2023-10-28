@@ -1,0 +1,294 @@
+POL 100.0.0 - Never Gonna Give You Up - Linux 64bit (Rev. 8ba263966)
+Compiled on Nov  6 2020 21:21:46
+Copyright (C) 1993-2020 Eric N. Swanson
+
+Using 2 out of 2 worldsave threads
+Reading Configuration.
+Found libc 2.27 - ok
+Loading Realm britannia.
+Validating statics files: Completed in 1 ms.
+Completed in 139 ms.
+Loading Realm britannia.bak.
+Validating statics files: Completed in 1 ms.
+Completed in 140 ms.
+hostname is pol-server
+address: 10.158.0.3
+LAN IP address is 10.158.0.3
+hostname is pol-server
+address: 10.158.0.3
+Loading package in pkg/commands/
+Loading package in pkg/packetHooks/PickupItems/
+Loading package in pkg/packetHooks/PacketConfig/
+Loading package in pkg/packetHooks/CharProfile/
+Loading package in pkg/packetHooks/SecureTrade/
+Loading package in pkg/packetHooks/OpenDoor/
+Loading package in pkg/packetHooks/partymessage/
+Loading package in pkg/packetHooks/megacliloc/
+Loading package in pkg/packetHooks/RequestAttack/
+Loading package in pkg/packetHooks/map/
+Loading package in pkg/packetHooks/BFCommand/
+Loading package in pkg/packetHooks/SendSkills/
+Loading package in pkg/packetHooks/speech/
+Loading package in pkg/packetHooks/doubleclick/
+Loading package in pkg/fls/help/
+Loading package in pkg/fls/fls_core/
+Loading package in pkg/fls/fls_skills/fls_carpentry/
+Loading package in pkg/fls/fls_skills/fls_magery/
+Loading package in pkg/fls/fls_skills/fls_lumberjacking/
+Loading package in pkg/fls/fls_items/water/
+Loading package in pkg/fls/fls_items/orcsmask/
+Loading package in pkg/fls/fls_items/ambience/
+Loading package in pkg/fls/fls_rppoints/
+Loading package in pkg/systems/attributes/
+Loading package in pkg/systems/reagentspawn/
+Loading package in pkg/systems/recipes/
+Loading package in pkg/systems/crafting/
+Loading package in pkg/systems/accounts/
+Loading package in pkg/systems/motd/
+Loading package in pkg/systems/spawnpoint/
+Loading package in pkg/systems/charactercreation/
+Loading package in pkg/systems/combat/
+Loading package in pkg/systems/loot/
+Loading package in pkg/systems/worldSaver/
+Loading package in pkg/systems/worldforge/
+Loading package in pkg/systems/chestspawn/
+Loading package in pkg/systems/spells/
+Loading package in pkg/systems/nature/
+Loading package in pkg/systems/skilleraser/
+Loading package in pkg/tn/
+Loading package in pkg/items/vomit/
+Loading package in pkg/items/quadros/
+Loading package in pkg/items/mounts/
+Loading package in pkg/items/mastermind/
+Loading package in pkg/items/maps/
+Loading package in pkg/items/containers/
+Loading package in pkg/items/unicos/
+Loading package in pkg/items/usestuff/
+Loading package in pkg/items/destroyable/
+Loading package in pkg/items/wands/
+Loading package in pkg/items/lighting/
+Loading package in pkg/items/snow/
+Loading package in pkg/items/food/
+Loading package in pkg/items/sosbottles/
+Loading package in pkg/items/trash/
+Loading package in pkg/items/acid/
+Loading package in pkg/items/dyes/
+Loading package in pkg/items/hair/
+Loading package in pkg/items/keys/
+Loading package in pkg/items/fireweapons/
+Loading package in pkg/items/traps/
+Loading package in pkg/items/disguise/
+Loading package in pkg/items/training/
+Loading package in pkg/items/walkOn/
+Loading package in pkg/items/moongates/
+Loading package in pkg/items/champspawn/
+Loading package in pkg/items/gems/
+Loading package in pkg/items/blood/
+Loading package in pkg/items/music/
+Loading package in pkg/items/sysbook/
+Loading package in pkg/items/torture/
+Loading package in pkg/items/bulletinboard/
+Loading package in pkg/items/games/
+Loading package in pkg/items/doors/
+Loading package in pkg/multis/house/
+Loading package in pkg/multis/boat/
+Loading package in pkg/utils/gumps/
+Loading package in pkg/utils/coords/
+Loading package in pkg/utils/datafile/
+Loading package in pkg/utils/servperf/
+Loading package in pkg/utils/timeutils/
+Loading package in pkg/utils/control/
+Loading package in pkg/utils/itemUtils/
+Loading package in pkg/utils/unicodeutils/
+Loading package in pkg/mobiles/ghaia/
+Loading package in pkg/mobiles/brainAI/
+Loading package in pkg/mobiles/timedScripts/
+Loading package in pkg/mobiles/death/
+Loading package in pkg/mobiles/merchants/
+Loading package in pkg/mobiles/merchants/pcconversation/
+Loading package in pkg/mobiles/newCharacter/
+Loading package in pkg/skills/womenswork/
+Loading package in pkg/skills/cooking/
+Loading package in pkg/skills/metalworking/
+Loading package in pkg/skills/farming/
+Loading package in pkg/skills/medicine/
+Loading package in pkg/skills/pickpocketing/
+Loading package in pkg/skills/magiclore/
+Loading package in pkg/skills/gathering/
+Loading package in pkg/skills/woodworking/
+Loading package in pkg/skills/mechanicalapitude/
+Loading package in pkg/skills/magery/
+Loading package in pkg/skills/animalhandle/taming/
+Loading package in pkg/skills/animalhandle/herding/
+Loading package in pkg/skills/animalhandle/animallore/
+Loading package in pkg/skills/sneak/
+Loading package in pkg/skills/survival/
+Loading package in pkg/skills/awareness/
+Loading package in pkg/skills/alchemy/
+INSTALLING: Exported Vital - RegenRate and MaxValue functions ...
+Warning! scripts/items/mainHitScript.ecl does not exist!
+Warning! pkg/multis/boat/shipdeed.ecl does not exist!
+Warning! pkg/multis/boat/shipdeed.ecl does not exist!
+Warning! pkg/multis/boat/shipdeed.ecl does not exist!
+Warning! pkg/multis/boat/shipdeed.ecl does not exist!
+Warning! pkg/multis/boat/shipdeed.ecl does not exist!
+Warning! pkg/multis/boat/shipdeed.ecl does not exist!
+Warning! pkg/systems/combat/useScripts/destroyitems.ecl does not exist!
+Warning! pkg/items/containers/corpse/use.ecl does not exist!
+Warning! pkg/skills/cooking/oven.ecl does not exist!
+Warning! pkg/items/destroyable/destroy/dbClickdestroy.ecl does not exist!
+Warning! pkg/items/destroyable/destroy/dbClickdestroy.ecl does not exist!
+Warning! objtype 0xEC26 : ObjtypeName 'portaemperrada' is the same as objtype 0XEC25
+Warning! pkg/items/destroyable/destroy/dbClickdestroy.ecl does not exist!
+Warning! pkg/items/destroyable/destroy/dbClickdestroy.ecl does not exist!
+Warning! pkg/items/destroyable/container/canDestroy.ecl does not exist!
+Warning! pkg/items/destroyable/container/canInsert.ecl does not exist!
+Warning! pkg/items/destroyable/container/onInsert.ecl does not exist!
+Warning! pkg/items/destroyable/container/canRemove.ecl does not exist!
+Warning! pkg/items/destroyable/container/Onremove.ecl does not exist!
+Warning! pkg/items/destroyable/destroy/dbClickdestroy.ecl does not exist!
+Warning! pkg/items/destroyable/container/canDestroy.ecl does not exist!
+Warning! pkg/items/destroyable/container/canInsert.ecl does not exist!
+Warning! pkg/items/destroyable/container/onInsert.ecl does not exist!
+Warning! pkg/items/destroyable/container/canRemove.ecl does not exist!
+Warning! pkg/items/destroyable/container/Onremove.ecl does not exist!
+Warning! pkg/items/destroyable/destroy/dbClickdestroy.ecl does not exist!
+Warning! pkg/items/food/drinkgodwine.ecl does not exist!
+Warning! pkg/items/food/drinkgodwine.ecl does not exist!
+Warning! pkg/items/food/drinkgodwine.ecl does not exist!
+Warning! pkg/items/food/drinkgodwine.ecl does not exist!
+Warning! objtype 0xFDDE : ObjtypeName 'bandages' is the same as objtype 0XE21
+Warning! objtype 0x240E : ObjtypeName 'Quadro' is the same as objtype 0X240D
+Warning! objtype 0x240F : ObjtypeName 'Quadro' is the same as objtype 0X240D
+Warning! objtype 0x2410 : ObjtypeName 'Quadro' is the same as objtype 0X240D
+Warning! objtype 0xEA1 : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0xEA2 : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0xEA5 : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0xEA6 : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0xEA7 : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0xEA8 : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0xEC8 : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0xEC9 : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0x3C59 : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0x3C5A : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0x2413 : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0x2414 : ObjtypeName 'Retrato' is the same as objtype 0XE9F
+Warning! objtype 0xEA0 : ObjtypeName 'Quadro' is the same as objtype 0X240D
+Warning! objtype 0x3C5F : ObjtypeName 'Quadro' is the same as objtype 0X240D
+Warning! objtype 0x3C60 : ObjtypeName 'Quadro' is the same as objtype 0X240D
+Warning! objtype 0x3C61 : ObjtypeName 'Quadro' is the same as objtype 0X240D
+Warning! objtype 0x3C62 : ObjtypeName 'Quadro' is the same as objtype 0X240D
+Warning! objtype 0x3C63 : ObjtypeName 'Quadro' is the same as objtype 0X240D
+Warning! objtype 0x3C64 : ObjtypeName 'Quadro' is the same as objtype 0X240D
+Warning! objtype 0x3C5E : ObjtypeName 'Paisagem' is the same as objtype 0X3C5D
+Warning! objtype 0x3C53 : ObjtypeName 'Paisagem' is the same as objtype 0X3C5D
+Warning! objtype 0x3C54 : ObjtypeName 'Paisagem' is the same as objtype 0X3C5D
+Warning! objtype 0x3C55 : ObjtypeName 'Paisagem' is the same as objtype 0X3C5D
+Warning! objtype 0x3C56 : ObjtypeName 'Paisagem' is the same as objtype 0X3C5D
+Warning! objtype 0x3C4F : ObjtypeName 'Paisagem' is the same as objtype 0X3C5D
+Warning! objtype 0x3C50 : ObjtypeName 'Paisagem' is the same as objtype 0X3C5D
+Warning! pkg/tn/recipeClick.ecl does not exist!
+Warning! pkg/tn/recipeCreate.ecl does not exist!
+Warning! objtype 0xFF991 : ObjtypeName 'recipe2' is the same as objtype 0XFE995
+Warning! pkg/tn/recipeClick.ecl does not exist!
+Warning! pkg/tn/recipeCreate.ecl does not exist!
+Warning! objtype 0xFF992 : ObjtypeName 'recipe3' is the same as objtype 0XFE996
+Warning! pkg/tn/pergaminhoClick.ecl does not exist!
+Warning! pkg/tn/pergaminhoCreate.ecl does not exist!
+Warning! objtype 0x138A : ObjtypeName 'Trajes religiosos' is the same as objtype 0X1389
+Warning! objtype 0x3BC0 : ObjtypeName 'numajatunic' is the same as objtype 0X316B
+Warning! pkg/skills/womenswork/maketricoitems.ecl does not exist!
+Warning! pkg/items/usestuff/usestuff.ecl does not exist!
+INSTALLING: Combat Advancement hook... 
+INSTALLING: Parry hook...
+INSTALLING: AttackHook ... OK!
+
+INSTALLING: Auto Account/Theft Prevention PH...
+INSTALLING: Character Profile PH...
+INSTALLING: Double Click PH...
+Hooking Item Pickup...
+INSTALLING: Request Map PH...
+INSTALLING: Outgoing Tooltip PH...
+INSTALLING: Request Attack PH...
+Tradeing Hooks going...
+Hooking Send Skill...
+Hooking Unicode Outgoing...
+SystemHook: Hooking Shownames.
+INSTALLING: Statlock Recieving PH...
+INSTALLING: Screen Size Setup PH...
+INSTALLING: OpenDoor Action Macro PH...
+Hooking Skill Request...
+INSTALLING: partymessage...
+Reading data files:
+  data/accounts.txt: 15 elements in 0 ms.
+  data/pol.txt: 2 elements in 0 ms.
+  data/objects.txt: 0 elements in 0 ms.
+  data/pcs.txt: 50 elements in 8 ms.
+  data/pcequip.txt: 156 elements in 66 ms.
+  data/npcs.txt:. 1528 elements in 328 ms.
+  data/npcequip.txt:.. 1410 elements in 120 ms.
+  data/items.txt:. 1579 elements in 35 ms.
+  data/multis.txt: 0 elements in 0 ms.
+  data/storage.txt: 10 elements in 0 ms.
+  data/parties.txt: 0 elements in 0 ms.
+Done! 561 milliseconds.
+Running startup script.
+Script scripts/start.ecl running...
+---------------------------
+
+
+Starting accounts watcher... OK.
+Starting attributes setup... OK.
+Starting ICP setup... OK.
+Starting plant-grower control script... ok.
+Starting jail keeper
+Starting mining resource regeneration script... ok.
+Starting check-innkeeper script... ok.
+Starting system moongate setup... OK.
+syslog [pkg/systems/nature/start.ecl]: Inicializando o sistema de natureza
+Starting Reagent Spawn
+Starting Skill Eraser
+Starting world saver... OK.
+Startup script complete.
+Initialization complete.  POL is active.  Ctrl-C to stop.
+
+Game is active.
+Listening for UO clients on port 5003 (encryption: 0,0x0,0x0)
+Starting Aux Listener (:accounts:auxsvc/newAccount, port 5666)
+syslog [pkg/skills/gathering/regeneration/RegenerateResources.ecl]: Running ore regeneration cycle. (0 veins)
+syslog [pkg/skills/farming/grower/globalcontrol.ecl]: Running plant-grower growth cycle.
+Script pkg/skills/alchemy/alchemyrecipe.ecl running..33
+cfg: <appobj:ConfigFileRef>
+elem: <appobj:ConfigElemRef>
+Script pkg/skills/alchemy/alchemyrecipe.ecl running..33
+cfg: <appobj:ConfigFileRef>
+elem: <appobj:ConfigElemRef>
+Script pkg/systems/spells/pergaminhoCreate.ecl running..58..53..108
+Script pkg/systems/spells/pergaminhoCreate.ecl running..58..53..108
+Script pkg/skills/alchemy/alchemyrecipe.ecl running..33
+Script pkg/skills/alchemy/alchemyrecipe.ecl running..33
+Script pkg/skills/alchemy/alchemyrecipe.ecl running..33
+Script pkg/skills/alchemy/alchemyrecipe.ecl running..33
+Script pkg/systems/combat/mainHitScript.ecl running..5403..6257..3767
+Script pkg/systems/combat/mainHitScript.ecl running..1080..1255..3777..3617
+Script pkg/systems/combat/mainHitScript.ecl running..5389..4013..1765..3268
+Script pkg/systems/combat/mainHitScript.ecl running..5389..4013..1765..3268
+Script pkg/systems/combat/mainHitScript.ecl running..5397..6268..4106..4086
+Script pkg/systems/combat/mainHitScript.ecl running..5390..4100..1586..1115
+Script pkg/systems/combat/mainHitScript.ecl running..5389..4013..1765..3268
+Script pkg/systems/combat/mainHitScript.ecl running..5389..4013..1765..3235
+Script pkg/systems/combat/mainHitScript.ecl running..5389..5615..4064..3132
+Account Baali logged in from 179.35.21.23
+Client disconnected from 179.35.21.23 (0/0 connections)
+Script scripts/misc/logon.ecl running..639..612..655..205
+Exception caught while loading script scripts/misc/chatbutton.ecl: Unable to open scripts/misc/chatbutton.ecl for reading.
+Unable to read script 'scripts/misc/chatbutton.ecl'
+syslog [scripts/misc/skillwin.ecl]: Error::AP_GetAttributeCfgElem() - unable to find cfg elem [] ->Element not found
+syslog [scripts/misc/skillwin.ecl]: Error::AP_GetAttributeCfgElem() - unable to find cfg elem [] ->Element not found
+Client disconnected from 179.35.21.23 (0/0 connections)
+SIGTERM: exit.
+Waiting for 7 child threads to exit
+SIGTERM: exit.
+Shutting down...
+Writing data files...Data save completed in 12 ms. 13 total.
+Initiating POL Cleanup....

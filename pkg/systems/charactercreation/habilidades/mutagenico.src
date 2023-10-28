@@ -1,0 +1,164 @@
+  use uo;
+
+include ":attributes:attributes";
+include ":timedScripts:timedScripts";
+include "include/say";
+include ":tn:tngumps";
+include "include/damage";
+
+program manobra(who)
+
+	var mutante := GetObjProperty(who, "mutagenico");
+
+	recalcvitals(who);
+	
+	if (mutante == error)
+		var prot := RadioGump(who, 200, 260, "Escolha o mutagenico", {"Forca","Destreza", "Inteligencia"});
+		SendSysMessageEx(who, "Voce escolheu mutagenico de " + prot, SSM_INFO);
+		if (prot == "Forca")
+			SetObjProperty(who,"mutagenico", 1);
+
+			AP_SetStatMod(who, STRENGTH, 20);
+			AP_SetStatMod(who, DEXTERITY, -10);
+			AP_SetStatMod(who, INTELLIGENCE, -10);
+
+            var hitsmod := Cint(GetObjProperty(who, "hitsmod"));
+			var stammod := Cint(GetObjProperty(who, "stammod"));
+			var manamod := Cint(GetObjProperty(who, "manamod"));
+
+	        stammod := stammod - 10;
+			manamod := manamod - 10;
+	        hitsmod := hitsmod + 20;
+
+			SetObjProperty(who, "manamod",  manamod);
+			SetObjProperty(who, "stammod",  stammod);
+	        SetObjProperty(who, "hitsmod",  hitsmod);
+
+            SetObjProperty(who, "description", "Veias saltam para fora da pele");
+
+	        recalcvitals(who);
+
+			return;
+
+		elseif (prot == "Destreza")
+			SetObjProperty(who,"mutagenico", 2);
+
+			AP_SetStatMod(who, DEXTERITY, 20);
+			AP_SetStatMod(who, STRENGTH, -10);
+			AP_SetStatMod(who, INTELLIGENCE, -10);
+
+            var hitsmod := Cint(GetObjProperty(who, "hitsmod"));
+			var stammod := Cint(GetObjProperty(who, "stammod"));
+			var manamod := Cint(GetObjProperty(who, "manamod"));
+
+			manamod := manamod - 10;
+	        hitsmod := hitsmod - 10;
+	        stammod := stammod + 20;
+
+	        SetObjProperty(who, "manamod",  manamod);
+			SetObjProperty(who, "stammod",  stammod);
+	        SetObjProperty(who, "hitsmod",  hitsmod);
+
+            SetObjProperty(who, "description", "Pupilas contraidas como as de um felino");
+	        recalcvitals(who);
+			return;
+
+		elseif (prot == "Inteligencia");
+			SetObjProperty(who,"mutagenico", 3);
+			AP_SetStatMod(who, INTELLIGENCE, 20);
+			AP_SetStatMod(who, STRENGTH, -10);
+			AP_SetStatMod(who, DEXTERITY, -10);
+
+            var hitsmod := Cint(GetObjProperty(who, "hitsmod"));
+			var stammod := Cint(GetObjProperty(who, "stammod"));
+			var manamod := Cint(GetObjProperty(who, "manamod"));
+
+	        hitsmod := hitsmod - 10;
+	        stammod := stammod - 10;
+	        manamod := manamod + 20;
+
+	        SetObjProperty(who, "manamod",  manamod);
+			SetObjProperty(who, "stammod",  stammod);
+	        SetObjProperty(who, "hitsmod",  hitsmod);
+
+            SetObjProperty(who, "description", "Emana uma aura magica");
+	        recalcvitals(who);
+			return;
+		endif
+
+	elseif (mutante == 1)
+        EraseObjProperty(who,"mutagenico");
+
+		AP_SetStatMod(who, STRENGTH, 0);
+		AP_SetStatMod(who, INTELLIGENCE, 0);
+		AP_SetStatMod(who, DEXTERITY, 0);
+
+        var hitsmod := Cint(GetObjProperty(who, "hitsmod"));
+		var stammod := Cint(GetObjProperty(who, "stammod"));
+		var manamod := Cint(GetObjProperty(who, "manamod"));
+
+	    stammod := stammod + 10;
+		manamod := manamod + 10;
+	    hitsmod := hitsmod - 20;
+
+	    SetObjProperty(who, "manamod",  manamod);
+		SetObjProperty(who, "stammod",  stammod);
+	    SetObjProperty(who, "hitsmod",  hitsmod);
+
+        EraseObjProperty(who,"description");
+
+	    recalcvitals(who);
+
+		SendSysMEssageEx(who, "Voce se livra dos efeitos do mutagenico", SSM_FAIL);
+
+	elseif (mutante == 2)
+        EraseObjProperty(who,"mutagenico");
+
+		AP_SetStatMod(who, STRENGTH, 0);
+		AP_SetStatMod(who, INTELLIGENCE, 0);
+		AP_SetStatMod(who, DEXTERITY, 0);
+
+        var hitsmod := Cint(GetObjProperty(who, "hitsmod"));
+		var stammod := Cint(GetObjProperty(who, "stammod"));
+		var manamod := Cint(GetObjProperty(who, "manamod"));
+
+	    stammod := stammod - 20;
+		manamod := manamod + 10;
+	    hitsmod := hitsmod + 10;
+
+	    SetObjProperty(who, "manamod",  manamod);
+		SetObjProperty(who, "stammod",  stammod);
+	    SetObjProperty(who, "hitsmod",  hitsmod);
+
+        EraseObjProperty(who,"description");
+
+	    recalcvitals(who);
+
+        SendSysMEssageEx(who, "Voce se livra dos efeitos do mutagenico", SSM_FAIL);
+	elseif (mutante == 3)
+        EraseObjProperty(who,"mutagenico");
+
+		AP_SetStatMod(who, STRENGTH, 0);
+		AP_SetStatMod(who, INTELLIGENCE, 0);
+		AP_SetStatMod(who, DEXTERITY, 0);
+
+        var hitsmod := Cint(GetObjProperty(who, "hitsmod"));
+		var stammod := Cint(GetObjProperty(who, "stammod"));
+		var manamod := Cint(GetObjProperty(who, "manamod"));
+
+		stammod := stammod + 10;
+		hitsmod := hitsmod + 10;
+	    manamod := manamod - 20;
+
+	    SetObjProperty(who, "manamod",  manamod);
+		SetObjProperty(who, "stammod",  stammod);
+	    SetObjProperty(who, "hitsmod",  hitsmod);
+
+        EraseObjProperty(who,"description");
+
+	    recalcvitals(who);
+		
+		SendSysMEssageEx(who, "Voce se livra dos efeitos do mutagenico", SSM_FAIL);
+	endif
+
+endprogram   
